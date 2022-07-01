@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px; 
+    height: 250px;
+    margin: 0 auto; 
+    margin-top: 15rem;
+    background:  lightgrey;
+    border: 1px solid lavender;
+    border-radius: 10px;
+}
+.formClass{ 
+    display: flex; 
+    flex-direction: column;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+input{
+    border: none;
+    border-radius: 10px;
+}
+.submitBtn{
+    border-radius: 15px;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    background: lightslategray;
+    color: #ffffff;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+.submitBtn:hover{
+    background: rgb(91, 105, 119);
+}
+
+.inputClass{
+    padding: 0.5rem;
+}
+
